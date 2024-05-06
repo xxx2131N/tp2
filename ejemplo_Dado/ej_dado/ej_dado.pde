@@ -1,8 +1,9 @@
 size(600,500);
-int x=1;
-
+int x=(int)random(1,7);
+ textSize(50);
 switch(x){
   case 1:{
+    text((int) 1, 500, 50);
     fill(#FA082C);
     rect(100,100,250,250);
     fill(#0846FA);
@@ -10,6 +11,7 @@ switch(x){
     break;
   }
   case 2:{
+     text((int) 2, 500, 50);
     fill(#FA082C);
     rect(100,100,250,250);
     fill(#0846FA);
@@ -18,6 +20,7 @@ switch(x){
     break;
   }
   case 3:{
+     text((int) 3, 500, 50);
     fill(#FA082C);
     rect(100,100,250,250);
     fill(#0846FA);
@@ -27,6 +30,7 @@ switch(x){
     break;
   }
   case 4:{
+     text((int) 4, 500, 50);
     fill(#FA082C);
     rect(100,100,250,250);
     fill(#0846FA);
@@ -37,6 +41,7 @@ switch(x){
     break;
   }
   case 5:{
+     text((int) 5, 500, 50);
     fill(#FA082C);
     rect(100,100,250,250);
     fill(#0846FA);
@@ -48,6 +53,7 @@ switch(x){
     break;
   }
   case 6:{
+     text((int) 6, 500, 50);
     fill(#FA082C);
     rect(100,100,250,250);
     fill(#0846FA);
